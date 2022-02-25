@@ -1,0 +1,192 @@
+2022-02-20 13:57:46.401 INFO  connected to mongodb 
+2022-02-20 13:59:50.620 INFO  connected to mongodb 
+2022-02-20 14:25:42.097 INFO  connected to mongodb 
+2022-02-20 15:20:40.901 INFO  connected to mongodb 
+2022-02-21 17:00:41.539 INFO  connected to mongodb 
+2022-02-21 21:44:05.714 INFO  connected to mongodb 
+2022-02-22 10:40:22.768 INFO  connected to mongodb 
+2022-02-22 10:42:51.058 INFO  connected to mongodb 
+2022-02-22 10:58:10.218 INFO  connected to mongodb 
+2022-02-23 11:23:20.966 INFO  connected to mongodb 
+2022-02-23 14:31:56.632 INFO  connected to mongodb 
+2022-02-23 14:46:31.896 INFO  connected to mongodb 
+2022-02-23 14:46:43.435 INFO  connected to mongodb 
+2022-02-23 14:49:23.421 INFO  connected to mongodb 
+2022-02-23 15:15:01.412 INFO  connected to mongodb 
+2022-02-24 18:13:35.026 INFO  connected to mongodb 
+2022-02-24 18:33:09.421 INFO  connected to mongodb 
+2022-02-24 20:36:11.861 INFO  connected to mongodb 
+2022-02-24 20:36:46.118 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 20:36:54.500 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 20:36:54.503 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 20:40:04.515 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 20:40:10.159 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 20:40:10.160 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 20:40:14.242 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 20:40:14.243 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 20:42:01.869 INFO  obtain request for adding a patient Jerry 
+2022-02-24 20:42:27.565 INFO  obtain request for searching a patient by its name Jerry 
+2022-02-24 20:44:35.608 INFO  obtain request for searching a patient by its name Ben 
+2022-02-24 20:44:41.378 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 20:44:49.024 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 20:44:49.025 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 20:45:57.164 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 20:46:05.021 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 20:46:05.022 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 20:49:19.212 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 20:49:24.645 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 20:49:24.646 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 21:05:56.292 INFO  connected to mongodb 
+2022-02-24 21:06:24.678 INFO  obtain request for searching a patient by its name Ben 
+2022-02-24 21:06:30.306 INFO  obtain request for searching a patient by its name Jerry 
+2022-02-24 21:06:36.729 INFO  obtain request for searching a patient by its name Adam 
+2022-02-24 21:06:45.232 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 21:09:58.233 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 21:14:10.607 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 21:14:25.310 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 21:14:25.312 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 21:19:35.234 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 21:19:43.291 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 21:19:43.292 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 21:21:46.708 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 21:21:52.861 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 21:21:52.862 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 21:23:26.769 INFO  obtain request for searching a patient by its name Harry 
+2022-02-24 21:23:32.409 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 21:23:32.410 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 21:29:50.392 INFO  obtain request for searching a patient by its name Jerry 
+2022-02-24 21:32:00.343 INFO  connected to mongodb 
+2022-02-24 21:32:00.370 INFO  obtain request for editing a patient by its ID [object Object] 
+2022-02-24 21:32:00.374 ERROR Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+{"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"patients\""}
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "patients"
+    at model.Query.exec (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///C:/Users/adnan/OneDrive/Desktop/Clinic%20Management%20App/clinic_management_node_app/app.js:140:56
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\adnan\OneDrive\Desktop\Clinic Management App\clinic_management_node_app\node_modules\express\lib\router\index.js:371:14) 
